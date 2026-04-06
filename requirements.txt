@@ -1,0 +1,15 @@
+# Core
+numpy
+
+# Data processing
+pandas
+
+# Machine learning (required for model loading & pipeline)
+scikit-learn>=1.3
+xgboost>=1.7
+
+# Fairness evaluation
+fairlearn>=0.10
+
+# Optional but useful
+tqdm>=4.66

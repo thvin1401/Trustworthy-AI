@@ -1,0 +1,13 @@
+=== APPROVAL RATE ===
+Male   : 0.686
+Female : 0.571
+
+=== DEMOGRAPHIC PARITY ===
+DP Difference: 0.115
+
+=== DISPARATE IMPACT ===
+DIR: 0.833
+
+=== CONCLUSION ===
+→ Model shows BIAS based on Demographic Parity (DP > 0.1)
+→ No strong discrimination signal based on DIR
