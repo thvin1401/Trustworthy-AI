@@ -13,3 +13,6 @@ fairlearn>=0.10
 
 # Optional but useful
 tqdm>=4.66
+
+shap>=0.45
+matplotlib>=3.8
