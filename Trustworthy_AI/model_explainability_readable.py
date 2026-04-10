@@ -385,11 +385,17 @@ correlations = (
 )
 importance_df["gender_corr"] = correlations.reindex(feature_columns).fillna(0).values
 
+# Calculate Importance Percentage
+total_avg_importance = importance_df["mean_abs_shap"].sum()
+importance_df["importance_pct"] = (
+    importance_df["mean_abs_shap"] / total_avg_importance
+) * 100
+
 # Now we can safely sort
 importance_df = importance_df.sort_values("mean_abs_shap", ascending=False)
 importance_df["rank"] = np.arange(1, len(importance_df) + 1)
 importance_df = importance_df[
-    ["rank", "feature", "mean_abs_shap", "mean_shap", "gender_corr"]
+    ["rank", "feature", "mean_abs_shap", "importance_pct", "mean_shap", "gender_corr"]
 ]
 
 # ================================
@@ -764,9 +770,9 @@ print("\n=== TOP 10 FEATURES CORRELATED WITH GENDER ===")
 # Sorted by absolute correlation with gender
 analysis_by_corr = importance_df.sort_values(by="gender_corr", ascending=False)
 print(
-    analysis_by_corr[["feature", "gender_corr", "mean_abs_shap"]]
+    analysis_by_corr[["feature", "gender_corr", "mean_abs_shap", "importance_pct"]]
     .head(10)
-    .to_string(index=False)
+    .to_string(index=False, formatters={"importance_pct": "{:.2f}%".format})
 )
 
 print("\n--- Potential Proxy Features (Top 10 by Bias Potential) ---")
