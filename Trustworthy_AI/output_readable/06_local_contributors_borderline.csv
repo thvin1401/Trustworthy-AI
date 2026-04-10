@@ -1,0 +1,49 @@
+case,feature,feature_value,shap_value,abs_shap,direction
+borderline,Checking_Status_No account,0.0,-0.7740280658891424,0.7740280658891424,push_down
+borderline,Checking_Status_> 200 DM,1.0,0.6870099581748945,0.6870099581748945,push_up
+borderline,Credit_Amount,1258.0,-0.4779012682026951,0.4779012682026951,push_down
+borderline,Duration_Months,24.0,-0.4770289750013035,0.4770289750013035,push_down
+borderline,Purpose_Radio/TV,1.0,0.4744971481279936,0.4744971481279936,push_up
+borderline,Age,57.0,0.354768102565431,0.354768102565431,push_up
+borderline,Credit_History_Critical account,0.0,-0.2712958896008786,0.2712958896008786,push_down
+borderline,Telephone_Yes,0.0,-0.17887092405871954,0.17887092405871954,push_down
+borderline,Purpose_Used car,0.0,-0.14518007298000157,0.14518007298000157,push_down
+borderline,Credit_History_Paid till now,1.0,0.10875552688899916,0.10875552688899916,push_up
+borderline,Employment_Duration_4-7yrs,0.0,-0.09106017442187295,0.09106017442187295,push_down
+borderline,Property_0-200 DM4,0.0,0.09057366912835278,0.09057366912835278,push_up
+borderline,Savings_No savings,0.0,-0.0888944643031573,0.0888944643031573,push_down
+borderline,Housing_Own,1.0,0.08632082339841872,0.08632082339841872,push_up
+borderline,Residence_Duration,3.0,-0.07168545221153182,0.07168545221153182,push_down
+borderline,Employment_Duration_1-4yrs,1.0,-0.06974931285716593,0.06974931285716593,push_down
+borderline,Other_Plans_No account3,1.0,0.060493065380724145,0.060493065380724145,push_up
+borderline,Employment_Duration_< 1yr,0.0,0.059202331008855254,0.059202331008855254,push_up
+borderline,Existing_Credits_Count,1.0,0.0521788890613243,0.0521788890613243,push_up
+borderline,Checking_Status_0-200 DM,0.0,-0.050444136187434194,0.050444136187434194,push_down
+borderline,Savings_> 1000 DM,0.0,-0.05006433659233153,0.05006433659233153,push_down
+borderline,Guarantors_Guarantor,0.0,-0.04977135520428419,0.04977135520428419,push_down
+borderline,Employment_Duration_> 7yrs,0.0,-0.04793834532611072,0.04793834532611072,push_down
+borderline,Foreign_Worker_No,0.0,-0.04459465119522065,0.04459465119522065,push_down
+borderline,Savings_500-1000 DM,1.0,0.04369860468665138,0.04369860468665138,push_up
+borderline,Purpose_Furniture,0.0,-0.04174426784273237,0.04174426784273237,push_down
+borderline,Personal_Status_Sex_Male:Married,0.0,-0.03252710662782192,0.03252710662782192,push_down
+borderline,Property_0-200 DM3,1.0,0.028560804189182817,0.028560804189182817,push_up
+borderline,Purpose_Business,0.0,-0.02683429151074961,0.02683429151074961,push_down
+borderline,Personal_Status_Sex_Female:Married/Div,1.0,0.02058495073579252,0.02058495073579252,push_up
+borderline,Dependents,1.0,0.02019692469621077,0.02019692469621077,push_up
+borderline,Purpose_Education,0.0,0.015793716772459446,0.015793716772459446,push_up
+borderline,Job_Management,0.0,-0.013168714584317058,0.013168714584317058,push_down
+borderline,Savings_100-500 DM,0.0,-0.011636190816061572,0.011636190816061572,push_down
+borderline,Installment_Rate,3.0,-0.010932170810119714,0.010932170810119714,push_down
+borderline,Credit_History_Past delay,0.0,0.009278341829776764,0.009278341829776764,push_up
+borderline,Job_Skilled,0.0,0.009185684297699481,0.009185684297699481,push_up
+borderline,Personal_Status_Sex_Male:Single,0.0,0.007846763827838004,0.007846763827838004,push_up
+borderline,Credit_History_All paid,0.0,0.00504789769416675,0.00504789769416675,push_up
+borderline,Property_0-200 DM2,0.0,0.0049278960126684975,0.0049278960126684975,push_up
+borderline,Job_Unskilled Res,1.0,-0.004043220471357927,0.004043220471357927,push_down
+borderline,Guarantors_Co-applicant,0.0,0.0037658250727690755,0.0037658250727690755,push_up
+borderline,Housing_Free,0.0,-0.0036922122025862337,0.0036922122025862337,push_down
+borderline,Other_Plans_No account2,0.0,-0.0010715028923004865,0.0010715028923004865,push_down
+borderline,Purpose_Repairs,0.0,0.001068898793309927,0.001068898793309927,push_up
+borderline,Purpose_Used car0,0.0,0.0,0.0,push_up
+borderline,Purpose_Appliances,0.0,0.0,0.0,push_up
+borderline,Purpose_A48,0.0,0.0,0.0,push_up

@@ -1,0 +1,49 @@
+case,feature,feature_value,shap_value,abs_shap,direction
+rejected,Duration_Months,60.0,-1.2418049984713435,1.2418049984713435,push_down
+rejected,Checking_Status_No account,0.0,-0.7096344178088475,0.7096344178088475,push_down
+rejected,Credit_Amount,7297.0,-0.6548913394978445,0.6548913394978445,push_down
+rejected,Guarantors_Co-applicant,1.0,-0.363150294785155,0.363150294785155,push_down
+rejected,Property_0-200 DM4,1.0,-0.35514974427060225,0.35514974427060225,push_down
+rejected,Housing_Own,0.0,-0.2567855507554486,0.2567855507554486,push_down
+rejected,Credit_History_Critical account,0.0,-0.24153004042222165,0.24153004042222165,push_down
+rejected,Installment_Rate,4.0,-0.24032332972274162,0.24032332972274162,push_down
+rejected,Purpose_Radio/TV,0.0,-0.19528083402256016,0.19528083402256016,push_down
+rejected,Savings_No savings,0.0,-0.18529654319863767,0.18529654319863767,push_down
+rejected,Purpose_Business,1.0,0.15999363714945503,0.15999363714945503,push_up
+rejected,Purpose_Used car,0.0,-0.13925987422582695,0.13925987422582695,push_down
+rejected,Personal_Status_Sex_Male:Single,1.0,0.10520113458158448,0.10520113458158448,push_up
+rejected,Checking_Status_0-200 DM,0.0,-0.09876673192251474,0.09876673192251474,push_down
+rejected,Employment_Duration_4-7yrs,0.0,-0.08897914204222616,0.08897914204222616,push_down
+rejected,Residence_Duration,4.0,-0.08152796871552709,0.08152796871552709,push_down
+rejected,Telephone_Yes,0.0,-0.07458998421469004,0.07458998421469004,push_down
+rejected,Savings_100-500 DM,0.0,-0.058606427435297516,0.058606427435297516,push_down
+rejected,Checking_Status_> 200 DM,0.0,-0.05738669526879676,0.05738669526879676,push_down
+rejected,Foreign_Worker_No,0.0,-0.05237962086685002,0.05237962086685002,push_down
+rejected,Savings_> 1000 DM,0.0,-0.05102227858733386,0.05102227858733386,push_down
+rejected,Purpose_Furniture,0.0,-0.04864433353068307,0.04864433353068307,push_down
+rejected,Employment_Duration_< 1yr,0.0,0.0478842055844143,0.0478842055844143,push_up
+rejected,Other_Plans_No account3,1.0,0.04323284007841721,0.04323284007841721,push_up
+rejected,Job_Skilled,1.0,-0.040620769202942025,0.040620769202942025,push_down
+rejected,Guarantors_Guarantor,0.0,-0.038540893441531804,0.038540893441531804,push_down
+rejected,Personal_Status_Sex_Male:Married,0.0,-0.035727557740174234,0.035727557740174234,push_down
+rejected,Job_Management,0.0,-0.034050011069048196,0.034050011069048196,push_down
+rejected,Dependents,1.0,-0.03167576932813972,0.03167576932813972,push_down
+rejected,Age,36.0,0.0308798049465986,0.0308798049465986,push_up
+rejected,Employment_Duration_> 7yrs,1.0,-0.02660284170648083,0.02660284170648083,push_down
+rejected,Personal_Status_Sex_Female:Married/Div,0.0,0.024180028045084328,0.024180028045084328,push_up
+rejected,Housing_Free,0.0,-0.02338913273997605,0.02338913273997605,push_down
+rejected,Purpose_Education,0.0,0.01687484658556059,0.01687484658556059,push_up
+rejected,Property_0-200 DM3,0.0,-0.015903497727122157,0.015903497727122157,push_down
+rejected,Job_Unskilled Res,0.0,-0.013809719294076785,0.013809719294076785,push_down
+rejected,Existing_Credits_Count,1.0,-0.013421052221674471,0.013421052221674471,push_down
+rejected,Credit_History_Paid till now,1.0,-0.010434287434327416,0.010434287434327416,push_down
+rejected,Credit_History_Past delay,0.0,-0.007015099376440048,0.007015099376440048,push_down
+rejected,Employment_Duration_1-4yrs,0.0,-0.005568452983861789,0.005568452983861789,push_down
+rejected,Savings_500-1000 DM,0.0,-0.005423198044300079,0.005423198044300079,push_down
+rejected,Credit_History_All paid,0.0,0.004352470263838768,0.004352470263838768,push_up
+rejected,Property_0-200 DM2,0.0,-0.004015675326954806,0.004015675326954806,push_down
+rejected,Other_Plans_No account2,0.0,-0.003122163233347237,0.003122163233347237,push_down
+rejected,Purpose_Repairs,0.0,0.0007352316565811634,0.0007352316565811634,push_up
+rejected,Purpose_A48,0.0,0.0,0.0,push_up
+rejected,Purpose_Used car0,0.0,0.0,0.0,push_up
+rejected,Purpose_Appliances,0.0,0.0,0.0,push_up
