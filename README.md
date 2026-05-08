@@ -48,11 +48,12 @@ So với đề bài, repo hiện đang ở trạng thái:
 - [x] Đã tính approval rate theo giới tính
 - [x] Đã tính `Demographic Parity`
 - [x] Đã tính `Disparate Impact Ratio`
-- [ ] Chưa có training pipeline rõ ràng cho `XGBoost`
-- [ ] Chưa tách train/test để đánh giá fairness đúng quy trình
-- [ ] Chưa có phân tích `SHAP`
-- [ ] Chưa có kết luận chính thức xem `Gender` có nằm trong top-3 feature hay không
-- [ ] Chưa có báo cáo tái lập thí nghiệm đầy đủ
+- [x] Đã có phân tích `SHAP` (global bar, beeswarm, dependence, waterfall, gender cohort)
+- [x] Đã có kết luận chính thức: `Gender` (`Personal_Status_Sex`) **không nằm trong top-3 feature**; top-3 là `Checking_Status_No account`, `Duration_Months`, `Credit_Amount`
+- [x] Đã sửa logic mapping giới tính từ `Attribute9` (A91/A93/A94 = Male; A92/A95 = Female)
+- [x] Đã đóng gói Docker / docker-compose để tái lập thí nghiệm
+- [ ] Chưa có training pipeline rõ ràng cho `XGBoost` (model dùng dạng pickle có sẵn)
+- [ ] Chưa tách train/test — fairness audit hiện chạy trên full dataset
 
 ## Cấu trúc repo
 
